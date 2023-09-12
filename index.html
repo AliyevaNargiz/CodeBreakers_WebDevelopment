@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Codebreakers</title>
+<link rel='stylesheet' href="style.css">
+
+  <video id="video-background" preload="auto" autoplay loop muted>
+    <source src="media/video2.mp4" type="video/mp4" />
+  </video>
+
+  <audio id="myAudio" src="media/hj.mp3" controls autoplay loop></audio>
+  <button id="music-button">Music: On/Off </button>        
+
+<script src="app.js"></script>    
+    </head>
+    <body>
+        <div class="banner"> 
+            <div class="navbar">
+                <img src="media/2.jpg" alt="logo of team" class="logo" width="100" height="100">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT WEBSITE</a></li>
+                    <li><a href="project.html">HOUR OF CODE</a></li>
+                </ul>
+            </div>
+            <div class="content"> 
+                <h1>Website by Codebreakers</h1>
+                <p>Welcome to our website! Here, we will be showcasing our skills and knowledge in web development through our website project, while providing information about our team and team members. We will also share our experiences and insights from participating in the Hour of Code event through <a class='link' href='https://www.code.org/' target="_blank">Code.org</a>, as well as completing coding exercises on <a href='https://www.codecademy.com/' target="_blank">Codeacademy.com</a>, which inspired us to pursue our interests in web development. Our website will feature tutorials and resources for those interested in learning more about web development, as well as insights into our team's achievements and future plans. We hope that our website will be a valuable resource for all visitors and inspire others to pursue their own interests in web development.</p>
+                <h3 class="whoAreWe"><br>Who are We?</h3>
+                <br>
+                <div>Click the names and see who we are!</div>
+                <br>
+                <button type="button"><a href="members.html">Anar Mammadli</a></button>
+                <button type="button"><a href="members.html#anar ">Nargiz Aliyeva</a></button>
+                <button type="button"><a href="members.html#nargiz">Nazrin Babayeva</a></button>
+                <button type="button"><a href="members.html#nazrin">Javid Muradov</a></button>
+
+                <h1 class="intro">
+                    <img src="media/Anar.jpg" height="100px" width="100px"/>
+                    <img src="media/Nargiz.jpg" height="100px" width="100px"/>
+                    <img src="media/Nazrin.jpg" height="100px" width="100px"/>
+                    <img src="media/Cavid.jpg" height="100px" width="100px"/>
+                </h1>
+                <div class = 'Javascript'>
+                    <div class="javatext1"><br>The Quote of The Day:</div>
+                    <br>
+                    <p class = 'JavascriptText' id = 'JavascriptImplement'>Zooming in on the details is like examining a painting up close, while zooming out is like stepping back to see the whole picture. -  <b>A wise man</b></p>  
+                    <div>
+                        <button class="buttonJavascript" onclick = "increasefont()">+</button>
+                        <button class="buttonJavascript" onclick = "decreasefont()">-</button>
+                    </div>
+                </div>
+                
+            </div>
+           
+
+        </div>
+       
+
+    </body>
+    <footer class="copy">&copy;Codebreakers<footer></footer>
+    
+      
+</html>

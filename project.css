@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  /*.banner{
+    position: relative;
+    width: 100%;
+    height: 350vh;
+    min-width:1600px;
+    
+    background-color: black;
+   
+    background-size: cover;
+    
+  }
+  .banner::before{
+    content: "1.jpg";
+    width: 100%;
+    background-image: url("1.jpg");
+    height: 350vh;
+    min-width:1600px;
+    background-position: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    opacity: 20%;
+    object-fit: fill;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+    //////it is not good usage of background image//////
+  }
+  */
+  body{
+    
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url("media/1.jpg");
+    
+  }
+  .navbar{
+    background-color: rgb(52, 36, 36);
+    position: relative;
+    display: flex;
+    width: 40%;
+    margin: auto;
+    top: 3%;
+    padding: 10px 0px;
+    border-radius: 35px;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo{
+    cursor: pointer;
+    border-radius: 100%;
+  }
+  .navbar{
+    
+    opacity: 100% !important;
+    background-color: rgb(52, 36, 36);
+    position: fixed;
+    display: flex;
+    width: 40%;
+    margin: auto;
+    top: 3%;
+    padding: 10px 0px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+   transform: translateX(-50%);
+   opacity: 1;
+}
+.logo{
+    opacity: 100% !important;
+    cursor: pointer;
+    border-radius: 100%;
+}
+.navbar ul li{
+    
+    opacity: 100% !important;
+    list-style-type: none;
+    display: inline-block;
+    margin:  0 25px;
+}
+.navbar ul li a{
+    opacity: 100% !important;
+    text-decoration: none;
+    color: aliceblue;
+}
+.navbar ul li a:hover{
+    opacity: 100% !important;
+    box-shadow: 0px 2px rgb(94, 67, 67);
+    color: rgb(31, 195, 50);
+    transition: 0.5s;
+}
+.content{
+  margin-top: 200px;
+    position: static;
+}
+  .content h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 200px;
+    left: 36.5%;
+    font-size: 40px;
+  }
+  .content h3{
+    margin-top: 200px;
+    color: aliceblue;
+    text-indent: 15px;
+    font-weight: 400;
+    margin: 10px 90px;
+    text-align: start;
+    left: 12%;
+    right: 12%;
+  }
+   
+  .j3{
+    margin-top: 200px;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 10px 200px;
+    margin: 75px;
+    text-align: justify;
+    text-indent: 10px;
+  }
+  .j3 h2{
+    margin: 10px !important;
+    padding: 22px !important;
+  }
+.j3 img{
+  float: left;
+  border: 1px dotted black;
+  margin: 0px 5px 15px 20px !important;
+  object-fit: cover;
+    object-position: center center;
+}
+.j4{
+  margin-top: 200px;
+  color: aliceblue;
+  font-size: 16px;
+  padding: 10px 200px;
+  margin: 75px;
+  text-align: justify;
+  text-indent: 10px;
+}
+.j4 h2{
+  margin: 10px !important;
+  padding: 22px !important;
+}
+.j4 img{
+float: right;
+border: 1px dotted black;
+margin: 0px 5px 15px 20px !important;
+object-fit: cover;
+    object-position: center center;
+}
+
+.j5{
+  margin-top: 200px;
+  color: aliceblue;
+  font-size: 16px;
+  padding: 10px 200px;
+  margin: 75px;
+  text-align: justify;
+  text-indent: 10px;
+}
+.j5 h2{
+  margin: 10px !important;
+  padding: 22px !important;
+}
+.j5 img{
+float: left;
+border: 1px dotted black;
+margin: 0px 5px 15px 20px !important;
+object-fit: cover;
+    object-position: center center;
+}
+
+.j6{
+  margin-top: 200px;
+  color: aliceblue;
+  font-size: 16px;
+  padding: 10px 200px;
+  margin: 75px;
+  text-align: justify;
+  text-indent: 10px;
+}
+.j6 h2{
+  margin: 10px !important;
+  padding: 22px !important;
+}
+.j6 img{
+float: right;
+border: 1px dotted black;
+margin: 0px 5px 15px 20px !important;
+object-fit: cover;
+    object-position: center center;
+}
+.thanks{
+  text-indent: 20px;
+}
+.j3,.j4,.j5,.j6{
+  font-size:18px !important;
+}
+.hoc2{
+  top:40%;
+  left:0;
+  right: 0%;
+  color: aliceblue;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px;
+  text-align: center;
+  text-indent: 10px;
+}
+.hoc2 img{
+ 
+  left: 50% !important;
+  object-fit: cover;
+    object-position: center center;
+border: 1px dotted black;
+margin: 0px 5px 15px 20px !important;
+}
+
+
+  /*.content{
+    position:absolute;
+   text-align: center;
+    top: 33%;
+    color: aliceblue;   
+  }
+  .content h1{
+    text-align: center;
+    font-size: 65px;
+  }
+  .content p{
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px 200px;
+  }
+  problem error overlap
+  */
+  
+  p a:link, h3 a:link {
+    color: rgb(31, 195, 50);
+    text-decoration: none;
+  }
+  p a:visited, h3 a:visited {
+    color: rgb(11, 84, 13);
+    text-decoration: none;
+  }
+  p a:hover, h3 a:hover{
+    color: greenyellow;
+    transition: 90ms;
+   transition: 0.7s;
+}
+  
+  .content img{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    background-color: rgb(52, 36, 36);
+    border-radius: 25px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .copy{
+    padding: 10px;
+    text-align:left;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+ 
+#video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+  filter: brightness(40%)
+  
+}
+
+#music-button {
+  position: fixed;
+  top: 20px;
+  right: 10px;
+  width: 150px;
+    background-color: rgb(52, 36, 36);
+    color: aliceblue;
+    padding: 15px 15px;
+    margin: 10px 10px;
+    text-align: center;
+    border-radius: 35px;
+    font-weight: 700;
+}
+
+audio::-webkit-media-controls {
+  display: none !important;
+}
+audio::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+audio::-webkit-media-controls-panel {
+  display: none !important;
+}
+
+
+  
+  

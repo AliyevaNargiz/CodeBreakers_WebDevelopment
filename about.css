@@ -1,0 +1,136 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url("media/1.jpg");
+  
+}
+.navbar{
+    
+  opacity: 100% !important;
+  background-color: rgb(52, 36, 36);
+  position: fixed;
+  display: flex;
+  width: 40%;
+  margin: auto;
+  top: 3%;
+  padding: 10px 0px;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+ transform: translateX(-50%);
+ opacity: 1;
+}
+.logo{
+  opacity: 100% !important;
+  cursor: pointer;
+  border-radius: 100%;
+}
+.navbar ul li{
+  
+  opacity: 100% !important;
+  list-style-type: none;
+  display: inline-block;
+  margin:  0 25px;
+}
+.navbar ul li a{
+  opacity: 100% !important;
+  text-decoration: none;
+  color: aliceblue;
+}
+.navbar ul li a:hover{
+  opacity: 100% !important;
+  box-shadow: 0px 2px rgb(94, 67, 67);
+  color: rgb(31, 195, 50);;
+  transition: 0.5s;
+}
+.content{
+  margin-top: 200px;
+    position: static;
+ text-align: center;
+  top: 33%;
+  color: aliceblue;   
+}
+.content h1{
+  text-align: center;
+  font-size: 65px;
+}
+.content p{
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px 200px;
+}
+
+p a:link {
+  color: rgb(31, 195, 50);
+  text-decoration: none;
+}
+p a:visited {
+  color: rgb(10, 140, 25);
+  text-decoration: none;
+}
+p a:hover{
+  color: greenyellow;
+  transition: 90ms;
+   transition: 0.7s;
+}
+
+.copy{
+  padding: 10px;
+  text-align:left;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+#video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+  filter: brightness(40%)
+  
+}
+
+#music-button {
+  position: fixed;
+  top: 20px;
+  right: 10px;
+  width: 150px;
+    background-color: rgb(52, 36, 36);
+    color: aliceblue;
+    padding: 15px 15px;
+    margin: 10px 10px;
+    text-align: center;
+    border-radius: 35px;
+    font-weight: 700;
+}
+
+audio::-webkit-media-controls {
+  display: none !important;
+}
+audio::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+audio::-webkit-media-controls-panel {
+  display: none !important;
+}
